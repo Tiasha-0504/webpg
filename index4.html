@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Single Page Website | Minor Project 1</title>
+        <link href="E:\Learning\vendor2\bootstrap\css\bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            .color-teal{
+                color: red;
+            }
+            .icon-lg{
+                font-size: 50px;
+            }
+            .icon-sm{
+                font-size: 25px;
+            }
+            .remove-bullets .remove-text-decoration{
+                text-decoration: none;
+                list-style: none;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a href="#" class="navbar-brand">
+                        <img src="E:\Learning\assets\2626372.jpg" height="150" width="200" alt="Brand logo">
+                    </a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                        <i class="bi bi-list"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbar1">
+                        <div class="navbar-nav ms-auto">
+                            <a href="#" class="nav-item nav-link active">Home</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
+                                <div class="dropdown-menu">
+                                    <a href="#" class="dropdown-item">Company</a>
+                                    <a href="#" class="dropdown-item">Team</a>
+                                </div>
+                              
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <a href="#" class="nav-item nav-link">Contact Us</a>
+                </div>
+            </nav>
+            <div id="carausel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="E:\Learning\assets\pexels-victor-freitas-841130.jpg" class="d-block w-100" alt="Carousel 1" style="max-height:100vh;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="E:\Learning\assets\pexels-william-choquette-1954524.jpg" class="d-block w-100" alt="Carousel 2" style="max-height:100vh;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="E:\Learning\assets\pexels-andrea-piacquadio-903171.jpg" class="d-block w-100" alt="Carousel 3" style="max-height:100vh;">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main class="m-5">
+            <section class="container m-4" id="about-us">
+                <h6 class="display-5 text-center">About Us</h6>
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="container">
+                            <img src="E:\Learning\assets\pexels-cottonbro-studio-4056535.jpg" class="d-block w-75" alt="About Us">
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <p>
+                            At Fitness&Gym, we believe that fitness and wellbeing are the cornerstones of a full and vibrant life. Established in 2023, we began our journey as a family-owned business dedicated to providing exceptional gym equipment at affordable prices. But, we dreamed bigger than just being an ordinary fitness equipment supplier; we aspired to lead the industry.
+
+                            After some months we've moved beyond just supplying gear-we've become advocates for fitness, wellbeing and life enrichment. Our commitment to excellence is reflected not only in the quality equipment we provide but also in the lives we've improved.
+
+                            Our real success lies in the thousands of customers we've empowered to live longer, more joyful, and healthier lives. We're more than just a fitness company-we're your partners in health, your cheerleaders on the sideline, motivating you to reach your personal fitness goals. Embrace the fitness journey with us and see how it transforms your world.
+
+                            Join us in our mission to improve lives through fitness and wellness, because at Fitness&Gym, your health is our passion.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <h6 class="display-6 text-center">Why Choose Us</h6>
+                    <div class="col-md-3">
+                        <div class="container text center">
+                            <span class="bi bi-person-arms-up color-teal icon-lg"></span>
+                            <p>People Centric</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="container text center">
+                            <span class="bi bi-lightbulb-fill color-teal icon-lg"></span>
+                            <p>Continuous Improvement</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="container text center">
+                            <span class="bi bi-hand-thumbs-up-fill color-teal icon-lg"></span>
+                            <p>Inclusivity</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="container text center">
+                            <span class="bi bi-person-hearts color-teal icon-lg"></span>
+                            <p>Empathy</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="team" class="container text-center m-4">
+                <h6 class="display-5 text-center">Our Innovative Team</h6>
+                <p >Fitness&Gym is powered by a vibrant team of over 50 extraordinary individuals - our success springs from their collective efforts!
+
+            Our team, a diverse mix of exceptional talent, work tirelessly to ensure your experience is unparalleled. They're the gears behind our operations - from sales, marketing and e-commerce, customer service, warehousing, finance, human resources, to R&D and management.
+                    
+                If you're on the lookout for a growth-fostering role in an empowering, inclusive environment that values great work, than you should get in touch!</p>
+            </section>
+            <section id="culture" class="container text center m-4">
+                <h6 class="display-5 text-center">Our Culture</h6>
+                <p>
+                    We know that building a positive culture is incredibly important. We believe in encouraging, supporting, challenging, learning and growing to be the best! Our flexible working solutions, gym rebates and educational opportunities create a positive work/life balance for all our employees.
+
+                    We believe in giving back and offering time, money and products to volunteer services and community organisations. We're committed to improving individuals' health, fitness, and well-being by supporting global and local charities, local sports teams, and events.
+                </p>
+            </section>
+            <section id="contact" class="container m-4">
+                <h6 class="display-5 text-center">Contact Us</h6>
+                
+                <div class="row">
+                    <div class="col-mid-6">
+                        <div class="container text center m-4">
+                            <p class="text-muted text-center fs-3">Our Contact Info</p>
+                            <div class="text-black-s text-center fs-4">Our Email</div>
+                            <div class="text-black-50 text-center fs-5">fitness&gym@reddish.com</div>
+                            <div class="text-black-s text-center fs-4">Phone No.</div>
+                            <div class="text-black-50 text-center fs-5">+91 9937675549</div>
+                            <div class="text-black-s text-center fs-4">Our Address</div>
+                            <div class="text-black-50 text-center fs-5">Saltlake,Kolkata <br>West Bengal 6604ee XXX</div>
+                        </div>
+                    </div>
+                    <div class="col-mid-6">
+                        <div class="container">
+                            <p class="text-muted text-center fs-3">You Can Also Write To Us</p>
+                            <div class="container">
+                                <div class="card shadow">
+                                    <div class="card-body">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="name" class="form-label">Enter Your Name</label>
+                                                <input type="text" class="form-control" name="name" id="name">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="emailid" class="form-label">Enter Your Email</label>
+                                                <input type="email" class="form-control" name="email" id="emailid">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="subject" class="form-label">Enter Your Subject</label>
+                                                <input type="text" class="form-control" name="subject" id="subject">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="message" class="form-label">Enter Your Message</label>
+                                                <textarea  class="form-control" name="message" id="message"></textarea>
+                                            </div>
+                                            <div class="form-group text-center">
+                                                <input type="submit" class="btn btn-outline-dark" value="Send message">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="bg-dark">
+            <div class="container">
+                    <div class="col-mid-6">
+                        <div class="container m-5">
+                            <p class="text-white fs-5"><u>Company</u></p>
+                            <ul class="remove-bullets remove-text-decoration">
+                                <li><a href="#" class="remove-text-decoration text-white">About Us</a></li>
+                                <li><a href="#" class="remove-text-decoration text-white">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="text-white text-center">
+                            <p>All rights reserve & copy 2023<a href="Fitness&Gym"></a></p>
+                        </div>
+                    </div>
+            </div>
+        </footer>
+        
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js" integrity="sha512-TPh2Oxlg1zp+kz3nFA0C5vVC6leG/6mm1z9+mA81MI5eaUVqasPLO8Cuk4gMF4gUfP5etR73rgU/8PNMsSesoQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="E:\Learning\vendor2\bootstrap\js\bootstrap.js"></script>
+    </body>
+</html>
